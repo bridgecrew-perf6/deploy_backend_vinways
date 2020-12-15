@@ -20,7 +20,7 @@ module.exports = {
       },
       accountNumber: {
         type: Sequelize.STRING,
-      }.
+      },
       proofOfTransaction: {
         type: Sequelize.STRING,
       },
