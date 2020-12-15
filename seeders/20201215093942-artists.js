@@ -11,7 +11,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
      */
-    return queryInterface.bulkInsert("artists", [
+    return queryInterface.bulkInsert("artist", [
       {
         name: "Bring Me The Horizon",
         old: 30,
