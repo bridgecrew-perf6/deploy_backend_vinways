@@ -11,7 +11,6 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
      */
-
     await queryInterface.bulkInsert("Users", [
       {
         fullName: "Muhammad Rydwan",

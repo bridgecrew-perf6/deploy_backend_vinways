@@ -9,7 +9,6 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       userId: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         references: {
           model: "Users",
@@ -18,9 +17,6 @@ module.exports = {
         onDelete: "CASCADE",
         onUpdate: "CASCADE",
       },
-      accountNumber: {
-        type: Sequelize.STRING,
-      },
       proofOfTransaction: {
         type: Sequelize.STRING,
       },
@@ -28,6 +24,9 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       paymentStatus: {
+        type: Sequelize.STRING,
+      },
+      accountNumber: {
         type: Sequelize.STRING,
       },
       createdAt: {
