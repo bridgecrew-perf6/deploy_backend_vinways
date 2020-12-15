@@ -15,7 +15,8 @@ module.exports = {
       {
         fullName: "Muhammad Rydwan",
         email: "admin@test.com",
-        password: "123456",
+        password:
+          "$2y$12$.cixhrZP//Fxjn8acIe89uTLounOrTtGPteB4VVpCImJMnjAlrpL2 ",
         status: "active",
         role: "admin",
         createdAt: new Date(),
@@ -24,7 +25,8 @@ module.exports = {
       {
         fullName: "Oliver Sykes",
         email: "member@test.com",
-        password: "123456",
+        password:
+          "$2y$12$TtqqDedruUjJ75h6lI6yVOD75yk8ja1KQxRhl/yd6DBk8LOuUIXMO ",
         status: "active",
         role: "user",
         createdAt: new Date(),
@@ -33,7 +35,8 @@ module.exports = {
       {
         fullName: "Jordan Fish",
         email: "notmember@test.com",
-        password: "123456",
+        password:
+          "$2y$12$HlhBUeeJ5sAtg3y9Ue6VY.A/lcgbDzwpnMfjVyHyposXD4Q0wsgGu ",
         status: "not active",
         role: "user",
         createdAt: new Date(),
