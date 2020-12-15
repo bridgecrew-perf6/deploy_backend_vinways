@@ -16,7 +16,7 @@ module.exports = {
         fullName: "Muhammad Rydwan",
         email: "admin@test.com",
         password:
-          "$2y$12$.cixhrZP//Fxjn8acIe89uTLounOrTtGPteB4VVpCImJMnjAlrpL2 ",
+          "$2b$10$VYyJquJD80a3veq4jL5Oa.JuRgGKHc6gtn7hskBJHG1CdyUWvz63C",
         status: "active",
         role: "admin",
         createdAt: new Date(),
@@ -26,7 +26,7 @@ module.exports = {
         fullName: "Oliver Sykes",
         email: "member@test.com",
         password:
-          "$2y$12$TtqqDedruUjJ75h6lI6yVOD75yk8ja1KQxRhl/yd6DBk8LOuUIXMO ",
+          "$2b$10$VYyJquJD80a3veq4jL5Oa.JuRgGKHc6gtn7hskBJHG1CdyUWvz63C",
         status: "active",
         role: "user",
         createdAt: new Date(),
@@ -36,7 +36,7 @@ module.exports = {
         fullName: "Jordan Fish",
         email: "notmember@test.com",
         password:
-          "$2y$12$HlhBUeeJ5sAtg3y9Ue6VY.A/lcgbDzwpnMfjVyHyposXD4Q0wsgGu ",
+          "$2b$10$VYyJquJD80a3veq4jL5Oa.JuRgGKHc6gtn7hskBJHG1CdyUWvz63C",
         status: "not active",
         role: "user",
         createdAt: new Date(),
