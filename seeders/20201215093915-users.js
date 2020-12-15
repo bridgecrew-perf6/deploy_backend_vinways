@@ -12,7 +12,7 @@ module.exports = {
      * }], {});
      */
 
-    await queryInterface.bulkInsert("users", [
+    await queryInterface.bulkInsert("Users", [
       {
         fullName: "Muhammad Rydwan",
         email: "admin@test.com",
@@ -22,24 +22,24 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
-      // {
-      //   fullName: "Oliver Sykes",
-      //   email: "member@test.com",
-      //   password: "123456",
-      //   status: "active",
-      //   role: "user",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
-      // {
-      //   fullName: "Jordan Fish",
-      //   email: "notmember@test.com",
-      //   password: "123456",
-      //   status: "not active",
-      //   role: "user",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
+      {
+        fullName: "Oliver Sykes",
+        email: "member@test.com",
+        password: "123456",
+        status: "active",
+        role: "user",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        fullName: "Jordan Fish",
+        email: "notmember@test.com",
+        password: "123456",
+        status: "not active",
+        role: "user",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
   },
 
